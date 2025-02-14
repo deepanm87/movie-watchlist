@@ -29,7 +29,7 @@ function updateWatchlistHtml(movie) {
                     <p class="movie-runtime">${movie.Runtime}</p>
                     <p class="movie-genres">${movie.Genre}</p>
                     <button class="add-remove-btn" data-id=${movie.imdbID}>
-                    <img src="trash-solid.svg" alt="button to delete" />
+                    
                     Remove
                     </button>
                 </div>
